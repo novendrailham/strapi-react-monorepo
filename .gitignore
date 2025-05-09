@@ -131,6 +131,7 @@ build
 .strapi-cloud.json
 
 # Backend (Strapi)
+backend/.env
 backend/node_modules/
 backend/.tmp/
 backend/build/
