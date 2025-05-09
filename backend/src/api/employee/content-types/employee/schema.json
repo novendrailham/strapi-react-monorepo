@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employees",
+  "info": {
+    "singularName": "employee",
+    "pluralName": "employees",
+    "displayName": "employee",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "HR",
+        "Engineer",
+        "Manager"
+      ]
+    }
+  }
+}
